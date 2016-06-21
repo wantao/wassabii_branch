@@ -1,0 +1,4 @@
+﻿ClientID:  	680654114236-fgkriach4cpb8fnlgna3g0pm0t6mqu9h.apps.googleusercontent.com
+Client Sercet: 	OuMhPq4QH8mS5ozq-dk4bnH1
+Redirect URL: 	https://www.example.com/oauth2callback
+refresh_token : 1/4WztCEoj9BviF0LqEjA1BK1964qydXFcAAMvrN0zAU4MEudVrK5jSpoR30zcRFq6

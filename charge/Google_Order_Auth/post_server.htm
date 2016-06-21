@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+</head>
+<body>
+
+產生Refresh Token<br>
+1.grant_type, 2.client_id, 3.client_secret, 4.redirect_uri, 5.code
+<form method="post" action="https://accounts.google.com/o/oauth2/token">
+<input type="text" id="grant_type"	 name="grant_type"		value="authorization_code"/>
+<input type="text" id="client_id"	 name="client_id"		value="508766129471.apps.googleusercontent.com"/>
+<input type="text" id="client_secret"name="client_secret" 	value="1yru5xsFw6zTEsFBxy9DrtGw"/>
+<input type="text" id="redirect_uri" name="redirect_uri" 	value="http://www.wasabiiapps.com.tw"/>
+<input type="text" id="code"		 name="code" 			value="4/6p1sCNs6eAPKcYMe6L-VYKGmU0BK.siODPXH6J0AVgrKXntQAax1CCk3JhQI"/>
+<input type="submit" />
+</form>
+
+對Access Token做更新<br>
+1.grant_type, 2.client_id, 3.client_secret, 4.refresh_token
+<form method="post" action="https://accounts.google.com/o/oauth2/token">
+<input type="text" id="grant_type" name="grant_type" value="refresh_token"/>
+<input type="text" id="client_id" name="client_id" value="508766129471.apps.googleusercontent.com"/>
+<input type="text" id="client_secret" name="client_secret" value="1yru5xsFw6zTEsFBxy9DrtGw"/>
+<input type="text" id="refresh_token" name="refresh_token" value="1/4-RNAvub8ygyXCdX_t_iNcUjl51kMYKWMovFL2SmkFI"/>
+<input type="submit" />
+</form>
+
+<br><br>
+
+<! 我的>
+驗證訂單(http://127.0.0.1/google_inapp_confirm_order.php)<br>
+1.PackageName(產品名稱), 2.ProductID(商品名稱), 3.PurchaseToken(交易訂單)
+<form method="post" action="http://127.0.0.1/google_inapp_confirm_order.php">
+<input type="text" id="PackageName" name="PackageName" value="tw.com.freeman.testbilling"/>
+<input type="text" id="ProductID" name="ProductID" value="gas"/>
+<input type="text" id="PurchaseToken" name="PurchaseToken" value="qrvyjzxlywepjqvnqgzqpopp.AO-J1Ox91JWO0iCVn4Uhne4UCrlmKJA3kre-0nRqvhMKLUajSwTibA5WmTydnW8eoNjBPrRhTxY1lpRSmFG8VnRIyj0tvC8ueCqhMvgTwl-3mln_ANQrtXE"/>
+<input type="submit" />
+</form>
+<! 阿杰>
+驗證訂單(http://192.168.2.35/google_inapp_confirm_order.php)
+<form method="post" action="http://192.168.2.35/google_inapp_confirm_order.php">
+<input type="text" id="PackageName" name="PackageName" value="tw.com.freeman.testbilling"/>
+<input type="text" id="ProductID" name="ProductID" value="gas"/>
+<input type="text" id="PurchaseToken" name="PurchaseToken" value="qrvyjzxlywepjqvnqgzqpopp.AO-J1Ox91JWO0iCVn4Uhne4UCrlmKJA3kre-0nRqvhMKLUajSwTibA5WmTydnW8eoNjBPrRhTxY1lpRSmFG8VnRIyj0tvC8ueCqhMvgTwl-3mln_ANQrtXE"/>
+<input type="submit" />
+</form>
+
+</body>
+</html>

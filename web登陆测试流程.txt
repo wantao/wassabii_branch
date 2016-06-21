@@ -1,0 +1,5 @@
+http://www.wassabii_branch.com/test_login_auth.php
+http://203.70.19.148/get_notice.php
+http://203.70.19.148/get_server_list.php?user_id=225109983&token=hongxinlajiao&platform_id=1&cellphone_os_type=0
+http://203.70.19.148/login_auth/hongxinlajiao/set_accept_license.php?platform_id=1&UserID=225109983
+http://203.70.19.148/get_server_info.php?user_id=225109983&token=hongxinlajiao&platform_id=1&server_id=1

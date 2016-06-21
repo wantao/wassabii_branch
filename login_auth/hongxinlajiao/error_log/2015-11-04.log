@@ -1,0 +1,7 @@
+18:28:44: update_account_info error,sql: INSERT INTO `tbl_account` SET `account`='1_22510998', `session_key`='891b9865b3854b09846b039202551ca5', `platform`=1, 
+    	`access_token`='hongxinlajiao', `login_time`=NOW(),`cellphone_os_type`=0,
+        `cellphone_os_type`=`cellphone_os_type` ON DUPLICATE KEY UPDATE `session_key`='891b9865b3854b09846b039202551ca5', `access_token`='hongxinlajiao', `login_time`=NOW() 
+18:30:17: update_account_info error,sql: INSERT INTO `tbl_account` SET `account`='1_22510998', `session_key`='891b9865b3854b09846b039202551ca5', `platform`=1, 
+    	`access_token`='hongxinlajiao', `login_time`=NOW(),`cellphone_os_type`=0,
+        `cellphone_os_type`=`cellphone_os_type` ON DUPLICATE KEY UPDATE `session_key`='891b9865b3854b09846b039202551ca5', `access_token`='hongxinlajiao', `login_time`=NOW() 
+19:40:31: login_auth.php not set resultCode,return:
